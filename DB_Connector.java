@@ -8,7 +8,7 @@ public class DB_Connector {
 		  
 		  String db_url="jdbc:mysql://localhost:3306/VehicleGallery";
 		  String db_user="root";
-		  String db_pswd="root-sql";
+		  String db_pswd="";
 		  
 		  try {
 			  Class.forName("com.mysql.cj.jdbc.Driver");
